@@ -34,6 +34,6 @@ end
 
 
 
-project-thumbnail
-create_project_hash
+# project-thumbnail
+# create_project_hash
 # ruby kickstarter_scraper.rb
