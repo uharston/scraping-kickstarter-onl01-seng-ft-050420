@@ -6,7 +6,11 @@ def create_project_hash
 
   kickstarter = Nokogiri::HTML(html)
 binding.pry
-  #kickstarter.css("li.project grid_4").first
 end
-
+#projects: kickstarter.css("li.project.grid_4")
+#title: project.css("h2.bbcard_name strong a")
+#image link: project.css("div.project-thumbnail a img").attribute("src").value
+#description: project.css("p.bbcard_blurb")
+project-thumbnail
 create_project_hash
+# ruby kickstarter_scraper.rb
